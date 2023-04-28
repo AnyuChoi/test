@@ -1,0 +1,7 @@
+이클립스 자동 새로고침 해줘야 한다
+
+1)window
+2)Preferences
+3)General -> Workspace
+4)Refesh using native hooks or polling 체크
+(기본후크 또는 폴링을 사용하여 새로고침)

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+<Resource
+maxIdle="20"
+maxActive="100"
+password = "1234"
+username = "jspid"
+driverClassName = "com.mysql.jdbc.Driver"
+url = "jdbc:mysql://localhost:3306/photo"
+type = "javax.sql.DataSource"
+auth = "container"
+name = "jdbc/mysql"
+/>
+</Context>
+<!-- 
+maxIdle : 커넥션 풀을 유지하기 위한 최대 대기 커넥션 수
+maxActive : 최대 연결 가능한 Connection 수(기본20)
+driverClassName : jdbc드라이버 클래스명
+type : 웹에서 이 리소스를 사용할 때 DataSource로 리턴됨
+loginTimeout: 연결 끊어지는 시간
+textOnBorrow : db에 test를 해볼 것인지
+ -->
